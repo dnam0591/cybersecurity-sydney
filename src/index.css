@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space-mono: 'space-mono', sans-serif;
+  --font-sans: 'indivisible', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+
+    background-image: linear-gradient(270deg,
+        #2FA4C6,
+        #6B5FD2,
+        #2FAF7E);
+
+    background-size: 400% 400%;
+    animation: gradientMove 60s ease infinite;
+  }
+
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
