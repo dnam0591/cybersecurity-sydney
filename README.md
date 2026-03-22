@@ -1,6 +1,6 @@
 # USYD Cybersecurity Website
 
-## 📦 Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -14,7 +14,7 @@ bun --version
 git --version
 ```
 
----
+
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ bun install
 bun run dev
 ```
 
----
+
 
 ## Run Locally
 
@@ -47,7 +47,7 @@ Open your browser and go to:
 http://localhost:5173
 ```
 
----
+
 
 ## Build for Production
 
@@ -55,7 +55,7 @@ http://localhost:5173
 bun run build
 ```
 
----
+
 
 ## Preview Production Build
 
@@ -63,12 +63,10 @@ bun run build
 bun run preview
 ```
 
----
+
 
 ## Notes
 
 * Vite provides fast builds and hot module replacement (HMR)
 * Bun is used for package management and running scripts
 * Edit files inside the `/src` folder — changes reflect instantly
-
----
