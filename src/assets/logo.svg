@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Left < (shifted left) -->
+  <g transform="translate(-3.5, 0)">
+    <path d="M9.5 8L6.5 12L9.5 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Slash / (centered, unchanged) -->
+  <path d="M14 8L11.5 16.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Right > (shifted right) -->
+  <g transform="translate(4.5, 0)">
+    <path d="M14.5 8L17.5 12L14.5 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+</svg>

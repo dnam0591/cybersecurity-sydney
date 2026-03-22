@@ -21,7 +21,7 @@
         #2FAF7E);
 
     background-size: 400% 400%;
-    animation: gradientMove 60s ease infinite;
+    animation: gradientMove 40s ease infinite;
   }
 
   @keyframes gradientMove {
